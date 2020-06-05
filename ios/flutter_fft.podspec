@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version          = '0.0.1'
   s.author           = { 'Kevin Koch' => 'office@kevin-koch.com' }
   s.license          = { :file => '../LICENSE' }
-  s.homepage         = 'https://github.com/kevkoch'
+  s.homepage         = 'https://github.com/kevkoch/flutter_fft'
   s.source           = { :path => '.' }
   s.dependency 'Flutter'
 end
