@@ -6,7 +6,6 @@ Pod::Spec.new do |s|
     s.version          = '0.0.1'
     s.summary          = 'No-op implementation of firebase_core_web web plugin to avoid build issues on iOS'
     s.description      = <<-DESC temp fake firebase_core_web plugin
-                         DESC
     s.homepage         = 'https://github.com/kevkoch/flutter-fft'
     s.license          = { :file => '../LICENSE' }
     s.author           = { 'Kevin Koch' => 'office@kevin-koch.com' }
