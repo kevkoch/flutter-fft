@@ -1,4 +1,4 @@
-#import "FlutterfftPlugin.h"
+#import "FlutterFftPlugin.h"
 #if __has_include(<flutter_fft/flutter_fft-Swift.h>)
 #import <flutter_fft/flutter_fft-Swift.h>
 #else
@@ -8,8 +8,8 @@
 #import "flutter_fft-Swift.h"
 #endif
 
-@implementation FlutterfftPlugin
+@implementation FlutterFftPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftFlutterfftPlugin registerWithRegistrar:registrar];
+  [SwiftFlutterFftPlugin registerWithRegistrar:registrar];
 }
 @end
